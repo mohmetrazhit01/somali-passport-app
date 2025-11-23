@@ -3,7 +3,6 @@
   <head>
     <link rel="icon" type="image/svg+xml" href="/globe.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Waxaan u beddelay magaca bogga Soomaali Passport Management System una beddelay Maamulka Baasaboorada Soomaaliya. -->
     <title>Maamulka Baasaboorada Soomaaliya</title>
     <link href="https://www.google.com/search?q=https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
@@ -15,7 +14,7 @@
         min-height: 100vh;
         background-color: #f7f9fc;
       }
-      /* CSS-kan waxa loo isticmaalaa in kaarka ID-ga uu u ekaado mid daabacan markuu daabaco / @media print { */
+      /* CSS-kan waxa loo isticmaalaa in kaarka ID-ga uu u ekaado mid daabacan markuu daabaco */
       @media print {
         body > * {
           visibility: hidden !important;
@@ -35,6 +34,8 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/PassportApp.tsx"></script>
+    <!-- Waa inaan beddelno meesha uu ka yimid (src) si uu u noqdo mid toos ah (./) -->
+    <!-- Waa inaan sidoo kale hubinno in PassportApp.tsx uu yahay faylka saxda ah ee la doonayo -->
+    <script type="module" src="./src/PassportApp.tsx"></script>
   </body>
 </html>
